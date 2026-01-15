@@ -1,0 +1,12 @@
+[eps=1,k=16,iterations=5] ncr=0.0000,mse=2684.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=16,iterations=4] ncr=0.0000,mse=2684.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=16,iterations=3] ncr=0.0000,mse=2684.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=16,iterations=2] ncr=0.0000,mse=2684.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=16,iterations=1] ncr=0.0000,mse=2684.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[avgeps=1,k=16] avg_ncr=0.0000,avg_mse=2684.0000,avg_acc=0.0000,avg_f1=0.0000,avg_mcr=0.0000
+[eps=1,k=32,iterations=5] ncr=0.0000,mse=1342.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=32,iterations=4] ncr=0.0000,mse=1342.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=32,iterations=3] ncr=0.0000,mse=1342.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=32,iterations=2] ncr=0.0000,mse=1342.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[eps=1,k=32,iterations=1] ncr=0.0000,mse=1342.0000,acc=0.0000,f1=0.0000,mcr=0.0000
+[avgeps=1,k=32] avg_ncr=0.0000,avg_mse=1342.0000,avg_acc=0.0000,avg_f1=0.0000,avg_mcr=0.0000
