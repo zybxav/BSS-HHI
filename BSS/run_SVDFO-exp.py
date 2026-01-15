@@ -9,7 +9,7 @@ from data_rm import Data
 
 from metrics_item import MetricsItem
 from svim import SVIM
-from ldp_rm_320 import LDP_RM
+from svd_fo import LDP_RM
 
 
 
