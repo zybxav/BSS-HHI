@@ -1,4 +1,5 @@
 import heapq
+import math
 import random
 import sys
 from pathlib import Path
@@ -11,7 +12,7 @@ PARENT_DIR = THIS_DIR.parent
 if str(PARENT_DIR) not in sys.path:
     sys.path.append(str(PARENT_DIR))
 
-from svim import SVIM, hit_rate_curve
+from svim import SVIM
 from data_rm import Data
 from metrics_item import MetricsItem
 
@@ -100,6 +101,39 @@ class BSSHHI:
         data_subset = self.clone_data_obj(data)
         return self.update_user_items_with_new_ids(data_subset, subset_encoded, b - 1)
 
+    def build_conditional_report_subset(self, data, encoded_items, selected_indices, fixed_bits, b):
+        """Build the private report for each user assigned to a condition.
+
+        The extra token ``b`` represents that the sampled value matches all
+        public conditions in ``fixed_bits``.  A remaining-bit token ``j`` is
+        present only when both the condition matches and bit ``j`` is one.
+        A non-matching user reports the reserved category.
+        """
+        match_token = b
+        dummy_token = b + 1
+        reports = []
+        for user_idx in selected_indices:
+            user_bits = set(encoded_items[user_idx])
+            matches = all(
+                ((bit_idx in user_bits) == bool(bit_value))
+                for bit_idx, bit_value in fixed_bits.items()
+            )
+            if matches:
+                report = [match_token]
+                report.extend(
+                    bit_idx
+                    for bit_idx in user_bits
+                    if bit_idx not in fixed_bits
+                )
+                reports.append(report)
+            else:
+                reports.append([dummy_token])
+
+        data_subset = self.clone_data_obj(data)
+        self.update_user_items_with_new_ids(data_subset, reports, dummy_token)
+        data_subset.dummy_item_id = dummy_token
+        return data_subset
+
     def estimate_bit_frequencies(self, encoded_data, epsilon, b):
         if len(encoded_data.data) == 0:
             return list(range(b)), np.full(b, 0.5, dtype=float)
@@ -114,6 +148,52 @@ class BSSHHI:
                 freq_map[bit] = float(np.clip(freq, 0.0, 1.0))
         return list(range(b)), freq_map
 
+    def estimate_conditional_bit_frequencies(
+        self,
+        data,
+        encoded_items,
+        selected_indices,
+        fixed_bits,
+        epsilon,
+        b,
+    ):
+        """Estimate Pr(bit=1 | fixed_bits) from the assigned users' reports."""
+        if not selected_indices:
+            return list(range(b)), np.full(b, 0.5, dtype=float)
+
+        report_data = self.build_conditional_report_subset(
+            data,
+            encoded_items,
+            selected_indices,
+            fixed_bits,
+            b,
+        )
+        match_token = b
+        sv = SVIM(report_data, top_k=b + 1, epsilon=epsilon)
+        token_list, token_freq = sv.find_singleton_origin(len(report_data.data))
+        token_freq = np.asarray(token_freq, dtype=float)
+        freq_by_token = {
+            int(token): float(freq)
+            for token, freq in zip(token_list, token_freq)
+        }
+
+        match_estimate = freq_by_token.get(match_token, 0.0)
+        freq_map = np.full(b, 0.5, dtype=float)
+        if match_estimate > 0:
+            for bit_idx in range(b):
+                if bit_idx in fixed_bits:
+                    freq_map[bit_idx] = float(fixed_bits[bit_idx])
+                else:
+                    joint_estimate = freq_by_token.get(bit_idx, 0.0)
+                    freq_map[bit_idx] = float(
+                        np.clip(joint_estimate / match_estimate, 0.0, 1.0)
+                    )
+        else:
+            for bit_idx, bit_value in fixed_bits.items():
+                freq_map[bit_idx] = float(bit_value)
+
+        return list(range(b)), freq_map
+
     def top_k_binary_numbers(self, bit_list, bit_freq, b, k, fixed_bits=None):
         fixed_bits = fixed_bits or {}
         bit_prob_map = {bit: freq for bit, freq in zip(bit_list, bit_freq)}
@@ -124,6 +204,9 @@ class BSSHHI:
         for i in range(b):
             if i in fixed_bits:
                 p1 = 1.0 if fixed_bits[i] == 1 else 0.0
+                if p1 == 1.0:
+                    base_val |= (1 << i)
+                continue
             else:
                 p1 = float(np.clip(bit_prob_map.get(i, 0.5), 0.0, 1.0))
             p0 = 1.0 - p1
@@ -248,7 +331,6 @@ class BSSHHI:
         user_ratio_by_depth=None,
         soft_margin_log=0.0,
         soft_search_factor=3,
-        return_debug=False,
     ):
         global_candidate_k = topk if global_candidate_k is None else int(global_candidate_k)
         conditional_candidate_k = topk if conditional_candidate_k is None else int(conditional_candidate_k)
@@ -309,8 +391,18 @@ class BSSHHI:
             est_indices = pool_indices[:est_count]
             remain_indices = pool_indices[est_count:]
 
-            node_data = self.build_encoded_data_subset(group1, encoded_all_users, est_indices, b)
-            node_bit_list, node_bit_freq = self.estimate_bit_frequencies(node_data, epsilon, b)
+            if fixed_bits:
+                node_bit_list, node_bit_freq = self.estimate_conditional_bit_frequencies(
+                    group1,
+                    encoded_all_users,
+                    est_indices,
+                    fixed_bits,
+                    epsilon,
+                    b,
+                )
+            else:
+                node_data = self.build_encoded_data_subset(group1, encoded_all_users, est_indices, b)
+                node_bit_list, node_bit_freq = self.estimate_bit_frequencies(node_data, epsilon, b)
 
             if depth == 0:
                 candidate_k = max(1, global_candidate_k)
@@ -379,14 +471,10 @@ class BSSHHI:
                 if not bit_group:
                     continue
 
-                one_users = [u for u in bit_group if sig_bit in encoded_all_users[u]]
-                zero_users = [u for u in bit_group if sig_bit not in encoded_all_users[u]]
-
                 target_one_count = int(len(bit_group) * fixed_bit_one_ratio)
-                target_zero_count = len(bit_group) - target_one_count
                 child_groups = [
-                    (1, one_users[:min(target_one_count, len(one_users))]),
-                    (0, zero_users[:min(target_zero_count, len(zero_users))]),
+                    (1, bit_group[:target_one_count]),
+                    (0, bit_group[target_one_count:]),
                 ]
 
                 for fixed_value, user_subset in child_groups:
@@ -418,14 +506,23 @@ class BSSHHI:
 
         bit_list = root_result["bit_list"]
         bit_freq = np.array(root_result["bit_freq"], dtype=float)
-        legacy_bin_list, legacy_freq_list = self.top_k_binary_numbers(bit_list, bit_freq, b, k=topk ** 2, fixed_bits={})
-        legacy_decimal_list = [int(binary, 2) for binary in legacy_bin_list]
-        sorted_indices = np.argsort(legacy_decimal_list)
-        sorted_legacy_decimal = sorted(legacy_decimal_list)
-        sorted_legacy_freq = [legacy_freq_list[i] for i in sorted_indices]
-        s0 = np.array(sorted_legacy_freq).reshape(topk, topk)
+        candidate_bin_list, candidate_score_list = self.top_k_binary_numbers(
+            bit_list,
+            bit_freq,
+            b,
+            k=topk ** 2,
+            fixed_bits={},
+        )
+        candidate_id_list = [int(binary, 2) for binary in candidate_bin_list]
+        ordered_candidate_pairs = sorted(
+            zip(candidate_id_list, candidate_score_list),
+            key=lambda x: (-x[1], x[0]),
+        )
+        ordered_candidate_ids = [item for item, _ in ordered_candidate_pairs]
+        ordered_candidate_scores = [score for _, score in ordered_candidate_pairs]
+        s0 = np.array(ordered_candidate_scores).reshape(topk, topk)
 
-        stage1_debug = {
+        stage1_state = {
             "global_user_count": root_result["estimate_user_count"],
             "global_bit_list": bit_list,
             "global_bit_freq": bit_freq.tolist(),
@@ -445,9 +542,7 @@ class BSSHHI:
             "node_results": node_results,
         }
 
-        if return_debug:
-            return s0, sorted_legacy_decimal, bit_list, stage1_debug
-        return s0, sorted_legacy_decimal, bit_list
+        return s0, ordered_candidate_ids, bit_list, stage1_state
 
     def split_data_by_ratio(self, data, ratios, shuffle=True):
         if abs(sum(ratios) - 1.0) >= 1e-6:
@@ -476,19 +571,39 @@ class BSSHHI:
 
     def perturb_vector(self, x, r, alpha):
         norm_x = np.linalg.norm(x)
+        clip_radius = float(r)
+        if clip_radius <= 0:
+            raise ValueError("The clipping radius must be positive.")
+
         if norm_x == 0:
             x_tilde = np.zeros_like(x)
+            clipped_norm = 0.0
         else:
-            prob_pos = 0.5 + norm_x / (2 * r)
+            clipped_norm = min(float(norm_x), clip_radius)
+            prob_pos = 0.5 + clipped_norm / (2 * clip_radius)
             if np.random.rand() < prob_pos:
-                x_tilde = (r * x) / norm_x
+                x_tilde = (clip_radius * x) / norm_x
             else:
-                x_tilde = -(r * x) / norm_x
+                x_tilde = -(clip_radius * x) / norm_x
 
         pi_alpha = np.exp(alpha) / (np.exp(alpha) + 1)
         t = np.random.rand() < pi_alpha
 
-        scale = r * (np.exp(alpha) + 1) / (np.exp(alpha) - 1) * np.sqrt(np.pi * len(x) / 2)
+        dimension = len(x)
+        log_sphere_factor = (
+            math.log(dimension)
+            + 0.5 * math.log(math.pi)
+            + math.lgamma((dimension + 1) / 2)
+            - math.log(2.0)
+            - math.lgamma(dimension / 2 + 1)
+        )
+        sphere_factor = math.exp(log_sphere_factor)
+        scale = (
+            clip_radius
+            * (np.exp(alpha) + 1)
+            / (np.exp(alpha) - 1)
+            * sphere_factor
+        )
         z = np.random.randn(len(x))
         z = scale * z / np.linalg.norm(z)
 
@@ -597,91 +712,11 @@ class BSSHHI:
         reverse_mapping = {new_id: original_id for new_id, original_id in enumerate(top_d_list)}
         return [reverse_mapping[i] for i in mapped_list if i in reverse_mapping]
 
-    def collect_stage1_candidate_union(self, stage1_debug):
+    def collect_stage1_candidate_union(self, stage1_details):
         candidate_union = set()
-        for node in stage1_debug["node_results"]:
+        for node in stage1_details["node_results"]:
             candidate_union.update(node["decimal_candidates"])
         return sorted(candidate_union)
-
-    def find_top_k(
-        self,
-        data,
-        ratios,
-        epsilon,
-        top_d,
-        top_k,
-        iterations,
-        b,
-        m,
-        significant_bit_count=2,
-        global_user_ratio=0.5,
-        fixed_bit_one_ratio=0.3,
-        global_candidate_k=None,
-        conditional_candidate_k=None,
-        conditional_candidate_k_by_depth=None,
-        max_split_order=2,
-        node_user_ratio=0.5,
-        significant_bits_by_depth=None,
-        user_ratio_by_depth=None,
-        soft_margin_log=0.08,
-        soft_search_factor=2,
-    ):
-        metrics_itemk = MetricsItem(data, top_k=top_k)
-        real_topk_item = metrics_itemk.true_item_dict
-
-        groups = self.split_data_by_ratio(data, ratios)
-        if len(groups) == 3:
-            group1, group2, group3 = groups
-        else:
-            group1, group3 = groups
-            group2 = None
-
-        s0, k_list, _, stage1_debug = self.init_matrix(
-            group1=group1,
-            epsilon=epsilon,
-            topk=m,
-            b=b,
-            significant_bit_count=significant_bit_count,
-            global_user_ratio=global_user_ratio,
-            fixed_bit_one_ratio=fixed_bit_one_ratio,
-            global_candidate_k=global_candidate_k,
-            conditional_candidate_k=conditional_candidate_k,
-            conditional_candidate_k_by_depth=conditional_candidate_k_by_depth,
-            max_split_order=max_split_order,
-            node_user_ratio=node_user_ratio,
-            significant_bits_by_depth=significant_bits_by_depth,
-            user_ratio_by_depth=user_ratio_by_depth,
-            soft_margin_log=soft_margin_log,
-            soft_search_factor=soft_search_factor,
-            return_debug=True,
-        )
-
-        if group2 is not None:
-            S_iter = self.svd_iteration(
-                S0=s0,
-                user_data_list=group2.data,
-                sorted_indices=k_list,
-                d=m,
-                domain_size=group2.dict_size,
-                iterations=iterations,
-                epsilon=epsilon,
-                theta=0.9,
-            )
-            top_d_list = self.get_topd_original_indices(S_iter, k_list, top_d)
-        else:
-            top_d_list = self.collect_stage1_candidate_union(stage1_debug)
-
-        group3, user_num = self.remove_non_top_items(group3, top_d_list)
-        svim = SVIM(group3, top_k=top_k, epsilon=epsilon)
-        estimate_list_svim, estimate_freq_svim = svim.find_singleton_origin(user_num)
-        estimate_list_svim = self.recover_items_from_top_list(estimate_list_svim, top_d_list)
-        estimate_dict_svim = svim.convert_result2dict(estimate_list_svim, estimate_freq_svim)
-
-        f1 = metrics_itemk.item_f1(estimate_dict_svim)
-        ncr = metrics_itemk.item_ncr(estimate_dict_svim)
-        mcr = metrics_itemk.cal_mcr(estimate_dict_svim)
-        return f1, ncr, mcr
-
 
 __all__ = [
     "BSSHHI",
@@ -689,7 +724,6 @@ __all__ = [
     "Data",
     "MetricsItem",
     "SVIM",
-    "hit_rate_curve",
     "parse_depth_config",
     "resolve_dataset_meta",
     "resolve_depth_value",
