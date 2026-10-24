@@ -1,0 +1,254 @@
+[
+  {
+    "epsilon": 1,
+    "k": 16,
+    "b": 20,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 160,
+    "parties": [
+      {
+        "name": "ub1_party1",
+        "users": 435637,
+        "domain": 528906,
+        "m": 130
+      },
+      {
+        "name": "ub1_party2",
+        "users": 154213,
+        "domain": 527933,
+        "m": 200
+      },
+      {
+        "name": "ub1_party3",
+        "users": 10150,
+        "domain": 526250,
+        "m": 50
+      }
+    ],
+    "truth_file": "ub_p123.txt",
+    "dataset": "fedub"
+  },
+  {
+    "epsilon": 2,
+    "k": 16,
+    "b": 20,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 160,
+    "parties": [
+      {
+        "name": "ub1_party1",
+        "users": 435637,
+        "domain": 528906,
+        "m": 130
+      },
+      {
+        "name": "ub1_party2",
+        "users": 154213,
+        "domain": 527933,
+        "m": 200
+      },
+      {
+        "name": "ub1_party3",
+        "users": 10150,
+        "domain": 526250,
+        "m": 50
+      }
+    ],
+    "truth_file": "ub_p123.txt",
+    "dataset": "fedub"
+  },
+  {
+    "epsilon": 3,
+    "k": 16,
+    "b": 20,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 160,
+    "parties": [
+      {
+        "name": "ub1_party1",
+        "users": 435637,
+        "domain": 528906,
+        "m": 130
+      },
+      {
+        "name": "ub1_party2",
+        "users": 154213,
+        "domain": 527933,
+        "m": 200
+      },
+      {
+        "name": "ub1_party3",
+        "users": 10150,
+        "domain": 526250,
+        "m": 50
+      }
+    ],
+    "truth_file": "ub_p123.txt",
+    "dataset": "fedub"
+  },
+  {
+    "epsilon": 4,
+    "k": 16,
+    "b": 20,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 160,
+    "parties": [
+      {
+        "name": "ub1_party1",
+        "users": 435637,
+        "domain": 528906,
+        "m": 130
+      },
+      {
+        "name": "ub1_party2",
+        "users": 154213,
+        "domain": 527933,
+        "m": 200
+      },
+      {
+        "name": "ub1_party3",
+        "users": 10150,
+        "domain": 526250,
+        "m": 50
+      }
+    ],
+    "truth_file": "ub_p123.txt",
+    "dataset": "fedub"
+  },
+  {
+    "epsilon": 5,
+    "k": 16,
+    "b": 20,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 160,
+    "parties": [
+      {
+        "name": "ub1_party1",
+        "users": 435637,
+        "domain": 528906,
+        "m": 130
+      },
+      {
+        "name": "ub1_party2",
+        "users": 154213,
+        "domain": 527933,
+        "m": 200
+      },
+      {
+        "name": "ub1_party3",
+        "users": 10150,
+        "domain": 526250,
+        "m": 50
+      }
+    ],
+    "truth_file": "ub_p123.txt",
+    "dataset": "fedub"
+  },
+  {
+    "epsilon": 6,
+    "k": 16,
+    "b": 20,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 160,
+    "parties": [
+      {
+        "name": "ub1_party1",
+        "users": 435637,
+        "domain": 528906,
+        "m": 130
+      },
+      {
+        "name": "ub1_party2",
+        "users": 154213,
+        "domain": 527933,
+        "m": 200
+      },
+      {
+        "name": "ub1_party3",
+        "users": 10150,
+        "domain": 526250,
+        "m": 50
+      }
+    ],
+    "truth_file": "ub_p123.txt",
+    "dataset": "fedub"
+  },
+  {
+    "epsilon": 7,
+    "k": 16,
+    "b": 20,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 160,
+    "parties": [
+      {
+        "name": "ub1_party1",
+        "users": 435637,
+        "domain": 528906,
+        "m": 130
+      },
+      {
+        "name": "ub1_party2",
+        "users": 154213,
+        "domain": 527933,
+        "m": 200
+      },
+      {
+        "name": "ub1_party3",
+        "users": 10150,
+        "domain": 526250,
+        "m": 50
+      }
+    ],
+    "truth_file": "ub_p123.txt",
+    "dataset": "fedub"
+  }
+]

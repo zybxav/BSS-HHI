@@ -1,0 +1,170 @@
+[
+  {
+    "epsilon": 1,
+    "k": 16,
+    "b": 17,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 16,
+    "parties": [
+      {
+        "name": "ifttt_100k",
+        "users": 100000,
+        "domain": 125316,
+        "m": 81
+      }
+    ],
+    "truth_file": "ifttt_100k.txt",
+    "dataset": "ifttt"
+  },
+  {
+    "epsilon": 1.5,
+    "k": 16,
+    "b": 17,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 16,
+    "parties": [
+      {
+        "name": "ifttt_100k",
+        "users": 100000,
+        "domain": 125316,
+        "m": 81
+      }
+    ],
+    "truth_file": "ifttt_100k.txt",
+    "dataset": "ifttt"
+  },
+  {
+    "epsilon": 2,
+    "k": 16,
+    "b": 17,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 16,
+    "parties": [
+      {
+        "name": "ifttt_100k",
+        "users": 100000,
+        "domain": 125316,
+        "m": 81
+      }
+    ],
+    "truth_file": "ifttt_100k.txt",
+    "dataset": "ifttt"
+  },
+  {
+    "epsilon": 2.5,
+    "k": 16,
+    "b": 17,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 16,
+    "parties": [
+      {
+        "name": "ifttt_100k",
+        "users": 100000,
+        "domain": 125316,
+        "m": 81
+      }
+    ],
+    "truth_file": "ifttt_100k.txt",
+    "dataset": "ifttt"
+  },
+  {
+    "epsilon": 3,
+    "k": 16,
+    "b": 17,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 16,
+    "parties": [
+      {
+        "name": "ifttt_100k",
+        "users": 100000,
+        "domain": 125316,
+        "m": 81
+      }
+    ],
+    "truth_file": "ifttt_100k.txt",
+    "dataset": "ifttt"
+  },
+  {
+    "epsilon": 3.5,
+    "k": 16,
+    "b": 17,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 16,
+    "parties": [
+      {
+        "name": "ifttt_100k",
+        "users": 100000,
+        "domain": 125316,
+        "m": 81
+      }
+    ],
+    "truth_file": "ifttt_100k.txt",
+    "dataset": "ifttt"
+  },
+  {
+    "epsilon": 4,
+    "k": 16,
+    "b": 17,
+    "ratios": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "retention": 0.8,
+    "iterations": 5,
+    "theta": 0.9,
+    "local_topk": 16,
+    "parties": [
+      {
+        "name": "ifttt_100k",
+        "users": 100000,
+        "domain": 125316,
+        "m": 81
+      }
+    ],
+    "truth_file": "ifttt_100k.txt",
+    "dataset": "ifttt"
+  }
+]

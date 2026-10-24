@@ -1,0 +1,112 @@
+{
+  "kosarak": [
+    {
+      "parameters": {
+        "c": [
+          2,
+          1,
+          1
+        ],
+        "x1": 2000,
+        "c0": 50,
+        "rho2": 0.3,
+        "theta": 0.9,
+        "iterations": 5
+      },
+      "allocation": [
+        0.5,
+        0.35,
+        0.7
+      ],
+      "epsilon_min": 1
+    }
+  ],
+  "movielens": [
+    {
+      "parameters": {
+        "c": [
+          5
+        ],
+        "x1": 4000,
+        "c0": 50,
+        "rho2": 0.3,
+        "theta": 0.9,
+        "iterations": 5
+      },
+      "allocation": [
+        0.5
+      ],
+      "epsilon_min": 1
+    },
+    {
+      "parameters": {
+        "c": [],
+        "x1": 42025,
+        "c0": 50,
+        "rho2": 0.1,
+        "theta": 0.9,
+        "iterations": 5
+      },
+      "allocation": [],
+      "epsilon_min": 3
+    }
+  ],
+  "syn65k": [
+    {
+      "parameters": {
+        "c": [
+          6,
+          2
+        ],
+        "x1": 2000,
+        "c0": 50,
+        "rho2": 0.7,
+        "theta": 0.9,
+        "iterations": 5
+      },
+      "allocation": [
+        0.5,
+        0.45
+      ],
+      "epsilon_min": 1
+    }
+  ],
+  "syn130k": [
+    {
+      "parameters": {
+        "c": [],
+        "x1": 13108,
+        "c0": 50,
+        "rho2": 0.5,
+        "theta": 0.9,
+        "iterations": 5
+      },
+      "allocation": [],
+      "epsilon_min": 1
+    }
+  ],
+  "userbehavior1300": [
+    {
+      "parameters": {
+        "c": [
+          6,
+          5,
+          3,
+          1
+        ],
+        "x1": 4000,
+        "c0": 50,
+        "rho2": 0.7,
+        "theta": 0.9,
+        "iterations": 5
+      },
+      "allocation": [
+        0.5,
+        0.35,
+        0.55,
+        0.75
+      ],
+      "epsilon_min": 1
+    }
+  ]
+}

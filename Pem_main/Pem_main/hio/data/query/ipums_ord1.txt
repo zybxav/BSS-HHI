@@ -1,1 +1,0 @@
-select sum(UHRSWORK) from foo where 24<=AGE<=40

@@ -1,1 +1,0 @@
-select count(UHRSWORK) from foo where 24<=INCTOT<=40

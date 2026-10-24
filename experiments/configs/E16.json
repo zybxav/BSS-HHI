@@ -1,0 +1,265 @@
+[
+  {
+    "dataset": "kosarak",
+    "epsilon": 2,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.35,
+      0.7
+    ],
+    "permutation_fraction": 0.0
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "topk": 32,
+    "n": 100000,
+    "input": "main/kosarak.txt",
+    "encoding_parameters": {
+      "search_mode": "full",
+      "selector_type": "least_imbalanced",
+      "max_split_order": "2",
+      "significant_bits_by_depth": "10,2",
+      "user_ratio_by_depth": "0.55,0.45",
+      "conditional_candidate_k_by_depth": "1032,361",
+      "global_candidate_k": "4127",
+      "global_user_ratio": "0.5",
+      "node_user_ratio": "0.5",
+      "fixed_bit_one_ratio": "0.5",
+      "final_candidate_cap": "0",
+      "phase3_method": "score_filter",
+      "theta": "0.85",
+      "iterations": "5",
+      "output_ratio_of_union": "0.80"
+    },
+    "permutation_fraction": 1.0
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "parameters": {
+      "c": [
+        5
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ],
+    "permutation_fraction": 0.0
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "topk": 32,
+    "n": 100000,
+    "input": "main/movielens.txt",
+    "encoding_parameters": {
+      "search_mode": "full",
+      "selector_type": "imbalance",
+      "max_split_order": "1",
+      "significant_bits_by_depth": "8",
+      "user_ratio_by_depth": "0.55",
+      "conditional_candidate_k_by_depth": "3765",
+      "global_candidate_k": "16733",
+      "global_user_ratio": "0.5",
+      "node_user_ratio": "0.5",
+      "fixed_bit_one_ratio": "0.5",
+      "final_candidate_cap": "0",
+      "phase3_method": "score_filter",
+      "theta": "0.85",
+      "iterations": "5",
+      "output_ratio_of_union": "0.40"
+    },
+    "permutation_fraction": 1.0
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.7,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ],
+    "permutation_fraction": 0.0
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "topk": 32,
+    "n": 100000,
+    "input": "main/syn65k.txt",
+    "encoding_parameters": {
+      "search_mode": "full",
+      "selector_type": "least_imbalanced",
+      "max_split_order": "2",
+      "significant_bits_by_depth": "10,3",
+      "user_ratio_by_depth": "0.55,0.45",
+      "conditional_candidate_k_by_depth": "1180,393",
+      "global_candidate_k": "7864",
+      "global_user_ratio": "0.5",
+      "node_user_ratio": "0.5",
+      "fixed_bit_one_ratio": "0.5",
+      "final_candidate_cap": "0",
+      "phase3_method": "score_filter",
+      "theta": "0.85",
+      "iterations": "5",
+      "output_ratio_of_union": "1.00"
+    },
+    "permutation_fraction": 1.0
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "parameters": {
+      "c": [],
+      "x1": 13108,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [],
+    "permutation_fraction": 0.0
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "topk": 32,
+    "n": 100000,
+    "input": "main/syn130k.txt",
+    "encoding_parameters": {
+      "search_mode": "full",
+      "selector_type": "least_imbalanced",
+      "max_split_order": "1",
+      "significant_bits_by_depth": "12",
+      "user_ratio_by_depth": "0.60",
+      "conditional_candidate_k_by_depth": "3277",
+      "global_candidate_k": "10486",
+      "global_user_ratio": "0.5",
+      "node_user_ratio": "0.5",
+      "fixed_bit_one_ratio": "0.5",
+      "final_candidate_cap": "0",
+      "phase3_method": "score_filter",
+      "theta": "0.85",
+      "iterations": "5",
+      "output_ratio_of_union": "1.00"
+    },
+    "permutation_fraction": 1.0
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.7,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.35,
+      0.55,
+      0.75
+    ],
+    "permutation_fraction": 0.0
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "topk": 32,
+    "n": 100000,
+    "input": "main/UserBehavior1300.txt",
+    "encoding_parameters": {
+      "search_mode": "full",
+      "selector_type": "imbalance",
+      "max_split_order": "2",
+      "significant_bits_by_depth": "10,2",
+      "user_ratio_by_depth": "0.5,0.45",
+      "conditional_candidate_k_by_depth": "4500,4500",
+      "global_candidate_k": "42252",
+      "global_user_ratio": "0.5",
+      "node_user_ratio": "0.5",
+      "fixed_bit_one_ratio": "0.5",
+      "final_candidate_cap": "50000",
+      "phase3_method": "svd_filter",
+      "theta": "0.85",
+      "iterations": "5",
+      "output_ratio_of_union": "0.50"
+    },
+    "permutation_fraction": 1.0
+  }
+]

@@ -1,0 +1,6410 @@
+[
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "kosarak",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/kosarak.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 4000,
+      "c0": 50,
+      "rho2": 0.3,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "movielens",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/movielens.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 42025,
+      "c0": 100,
+      "rho2": 0.1,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn65k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn65k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "userbehavior1300",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/UserBehavior1300.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 16,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2000,
+      "c0": 50,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 2.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2",
+    "parameters": {
+      "c": [
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4",
+    "parameters": {
+      "c": [
+        4
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6",
+    "parameters": {
+      "c": [
+        6
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1",
+    "parameters": {
+      "c": [
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2",
+    "parameters": {
+      "c": [
+        4,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,2",
+    "parameters": {
+      "c": [
+        6,
+        2
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,2,1",
+    "parameters": {
+      "c": [
+        4,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,3,1",
+    "parameters": {
+      "c": [
+        6,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "2,1,1,1",
+    "parameters": {
+      "c": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "4,3,2,1",
+    "parameters": {
+      "c": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "dataset": "syn130k",
+    "epsilon": 4.0,
+    "n": 100000,
+    "topk": 32,
+    "input": "main/syn130k.txt",
+    "factor": "c",
+    "level": "6,5,3,1",
+    "parameters": {
+      "c": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "x1": 2048,
+      "c0": 64,
+      "rho2": 0.5,
+      "theta": 0.9,
+      "iterations": 5
+    },
+    "cohorts": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "allocation": [
+      0.5,
+      0.45,
+      0.6,
+      0.7
+    ]
+  }
+]

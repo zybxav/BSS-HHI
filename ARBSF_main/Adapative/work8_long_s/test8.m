@@ -1,8 +1,0 @@
-vector_bandit_moving_pk=bandit_adaptive_moving_pk(d2,k2,item,e,N2);
-vector_ranking_moving_pk=ranking_adaptive_moving_pk(d2,k2,item,e,N2);
-[result_bandit_moving_pk,xor_bandit_moving_pk,se_moving_pk,var_correct_moving_pk]=ncr(N2,k2,d2,Ground_truth2,vector_bandit_moving_pk);
-[result_ranking_moving_pk,xor_ranking_moving_pk,se_ranking_pk,var_correct_ranking_pk]=ncr(N2,k2,d2,Ground_truth2,vector_ranking_moving_pk);
-V=[result_bandit_moving_pk,xor_bandit_moving_pk,se_moving_pk,var_correct_moving_pk;result_ranking_moving_pk,xor_ranking_moving_pk,se_ranking_pk,var_correct_ranking_pk]
-%为什么后面那个号那么多
-%先试一下本来就很低的频率,之前是算法出错来着
-%现在看B1和B2的差别为什么这么大
