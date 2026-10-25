@@ -15,7 +15,7 @@ This directory contains the baselines used in the main experiments and case stud
 
 | Method | Location | Description |
 |---|---|---|
-| LDP-RM | `case_studies/LDP_RM/` | The independent LDP-RM implementation and its relation-mining dependencies. |
+| LDP-RM | `case_studies/LDP_RM/` | The relation mining method LDP-RM. |
 | TAPS | — | Federated heavy-hitter analytics, with the implementation obtained by contacting the authors. |
 
 ## Appendix HHI methods: `hhi/`
