@@ -101,6 +101,8 @@ For the single-valued methods, public implementations are adapted where availabl
 
 | Component | Source |
 |---|---|
+| PEMSET | [Authors' implementation](https://github.com/Joy-Xue/PemSet), packaged in `main/PEMSET/`. |
+| ARBSF | [Authors' implementation](https://github.com/RONGDUGithub/ARBSF), packaged in `main/ARBSF/`. |
 | LDP-RM | [Original implementation](https://github.com/zybxav/BSS-HHI/blob/fa698de6e12931e2e5ee6135885e10e734da6a8c/BSS/ldp_rm.py), with its required modules packaged in `case_studies/LDP_RM/`. |
 | Apple CMS/HCMS | [pure-LDP](https://github.com/Samuel-Maddock/pure-LDP), commit `d4b2827b49127119b710271e48ac59710872b531`, MIT license. |
 | MSS and Python PGR | [private-frequency-oracle-rns](https://github.com/hharcolezi/private-frequency-oracle-rns), commit `824a3f72e360bba45bfb59047f5dab9fd7b2d3cc`, with the upstream MIT and BSD notices retained. |
